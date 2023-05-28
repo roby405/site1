@@ -40,6 +40,6 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(port, () => "server started")
+app.listen(port, '0.0.0.0')
 
 
